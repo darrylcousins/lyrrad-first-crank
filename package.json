@@ -1,0 +1,26 @@
+{
+  "name": "first-crank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html",
+    "dev": "parcel serve index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bikeshaving/crank": "^0.1.6",
+    "parcel": "^2.0.0-alpha.3.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel-preset-crank": "^0.2.0",
+    "sass": "^1.26.8"
+  }
+}
