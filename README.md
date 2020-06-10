@@ -107,3 +107,11 @@ const rootEl = document.getElementById('app');
 renderer.render(<App />, rootEl);
 ```
 
+## start server
+
+```bash
+npm run start
+```
+
+Visit `http://localhost:1234/`.
+

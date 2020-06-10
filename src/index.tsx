@@ -29,7 +29,7 @@ function Frame ({children}: {children: Children}) {
 
 function Greeting ({name}: {name: string}) {
   return (
-    <div>Hello to you: {name}</div>
+    <div>Hello {name}</div>
   );
 };
 
