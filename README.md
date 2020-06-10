@@ -26,7 +26,7 @@ touch index.html
 
 ## .babelrc
 
-```json
+```javascript
 {
   presets: [
      "@babel/preset-env",
